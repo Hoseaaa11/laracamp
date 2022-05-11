@@ -11,7 +11,7 @@ use App\Models\Camp;
 use Auth;
 use Mail;
 use str;
-use midtrans;
+use Midtrans;
 
 class CheckoutController extends Controller
 {
