@@ -28,7 +28,7 @@
                                         <td>{{$checkout->Camp->price}}</td>
                                         <td>{{$checkout->created_at->format('M d Y')}}</td>
                                         <td>
-                                            <strong>{{$chekcout->payment_status}}</strong>
+                                            <strong>{{$checkout->payment_status}}</strong>
                                         </td>                                    
                                     </tr>
                                 @empty
